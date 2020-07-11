@@ -92,9 +92,10 @@ public class BlueTowerScript : MonoBehaviour
     }
 
 
-    void OnDrawGizmos()
+    void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.white;
         Gizmos.DrawWireSphere(transform.position, range);
     }
 }
+
